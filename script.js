@@ -27,3 +27,4 @@ function closeGallery() {
   document.getElementById("gallery").classList.add("hidden");
 
 }
+
