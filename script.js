@@ -16,6 +16,9 @@ function openGallery(type) {
       const img = document.createElement("img");
       img.src = path;
       img.className = "gallery-img";
+      img.onclick = () => {
+        window.open(path, "_blank");
+      };
       content.appendChild(img);
     });
   }
@@ -27,5 +30,6 @@ function closeGallery() {
   document.getElementById("gallery").classList.add("hidden");
 
 }
+
 
 
