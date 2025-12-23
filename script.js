@@ -6,10 +6,10 @@ function openGallery(type) {
 
   if (type === "photo") {
     const photos = [
-      "images/photo/p1.jpeg",
-      "images/photo/p2.jpeg",
+      "/tagore-portfolio90/p1.jpeg",
+      "/tagore-portfolio90/p2.jpeg",
 
-      "images/photo/p3.jpeg"
+      "/tagore-portfolio90/p3.jpeg"
     ];
 
     photos.forEach(path => {
@@ -25,4 +25,5 @@ function openGallery(type) {
 
 function closeGallery() {
   document.getElementById("gallery").classList.add("hidden");
+
 }
